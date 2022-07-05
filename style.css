@@ -45,7 +45,7 @@ body{
 .general{
     grid-area: 1/1/ span 2/1;
     background-color: var(--dark-blue);
-    border-radius: 10px;
+    border-radius: 12px;
 }
 .personnal{
     background-color: var(--blue);
@@ -89,7 +89,7 @@ body{
 }
 .info-card{
     position:relative;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 .icon{
     width:100%;
@@ -137,7 +137,7 @@ body{
     bottom:-1px;
     left:-1px;
     height:201px;
-    border-radius: 10px;
+    border-radius: 12px;
     width:101% ;
     background-color: var(--dark-blue);
     padding:32px 30px;
@@ -149,7 +149,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom:29px;
+    margin-bottom:25px;
 }
 .upper-card p{
     font-size: 18px;
@@ -165,7 +165,7 @@ body{
 }
 .bottom-card p{
     font-size: .875rem;
-    margin-top: 15px;
+    margin-top: 10px;
     color:var(--pale-blue)
 }
 @media screen and (max-width:800px) {
