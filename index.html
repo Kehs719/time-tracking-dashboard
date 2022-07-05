@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <link rel="stylesheet" href="style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main class="grid">
+    <div class="general">
+      <div class="personnal">
+        <img src="./images/image-jeremy.png" alt="Profile picture">
+        <div class="name">
+          <p>Report for</p>
+          <h1>Jeremy Robson</h1>
+        </div>
+      </div>  
+        <ul class="time">
+          <li><span class="select">Daily</span></li>
+          <li><span class="active select">Weekly</span></li>
+          <li><span class="select">Monthly</span></li>
+        </ul>   
+      </div>
+    </div>
+      
+
+
+    <div class="work info-card">
+      <div class="icon">
+        <img src="./images/icon-work.svg" alt="Work icon">
+      </div>
+      
+      <div class="card">
+        <div class="upper-card">
+          <p>Work</p>
+          <img src="./images/icon-ellipsis.svg" alt="Three points">
+        </div>
+        <div class="bottom-card">
+          <h1 id="work-text">32hrs</h1>
+          <p id="work-lw">Last week - <span>36hrs</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="play info-card">
+      <div class="icon">
+        <img src="./images/icon-play.svg" alt="Play icon">
+      </div>
+      <div class="card">
+        <div class="upper-card">
+          <p>Play</p>
+          <img src="./images/icon-ellipsis.svg" alt="Three points">
+        </div>
+        <div class="bottom-card">
+          <h1 id="play-text">32hrs</h1>
+          <p id="play-lw">Last week - <span>36hrs</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="study info-card">
+      <div class="icon">
+        <img src="./images/icon-study.svg" alt="Study icon">
+      </div>
+      <div class="card">
+        <div class="upper-card">
+          <p>Study</p>
+          <img src="./images/icon-ellipsis.svg" alt="Three points">
+        </div>
+        <div class="bottom-card">
+          <h1 id="study-text">32hrs</h1>
+          <p id="study-lw">Last week - <span>36hrs</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="exercise info-card">
+      <div class="icon">
+        <img src="./images/icon-exercise.svg" alt="Exercise icon">
+      </div>
+      <div class="card">
+        <div class="upper-card">
+          <p>Exercise</p>
+          <img src="./images/icon-ellipsis.svg" alt="Three points">
+        </div>
+        <div class="bottom-card">
+          <h1 id="exercise-text">32hrs</h1>
+          <p id="exercise-lw">Last week - <span>36hrs</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="social info-card">
+      <div class="icon">
+        <img src="./images/icon-social.svg" alt="Social icon">
+      </div>
+      <div class="card">
+        <div class="upper-card">
+          <p>Social</p>
+          <img src="./images/icon-ellipsis.svg" alt="Three points">
+        </div>
+        <div class="bottom-card">
+          <h1 id="social-text">32hrs</h1>
+          <p id="social-lw">Last week - <span>36hrs</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="self-care info-card">
+      <div class="icon">
+        <img src="./images/icon-self-care.svg" alt="Self care icon">
+      </div>
+      
+      <div class="card">
+        <div class="upper-card">
+          <p>Self Care</p>
+          <img src="./images/icon-ellipsis.svg" alt="Three points">
+        </div>
+        <div class="bottom-card">
+          <h1 id="self-care-text">32hrs</h1>
+          <p id="self-care-lw">Last week - <span>36hrs</span></p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
